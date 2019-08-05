@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>C:/Users/Apple/Documents/Gridea/output</id>
+    <id>https://710784485.github.io/</id>
     <title>机器学习之路</title>
-    <updated>2019-08-05T14:42:05.977Z</updated>
+    <updated>2019-08-05T14:47:07.549Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="C:/Users/Apple/Documents/Gridea/output"/>
-    <link rel="self" href="C:/Users/Apple/Documents/Gridea/output/atom.xml"/>
+    <link rel="alternate" href="https://710784485.github.io/"/>
+    <link rel="self" href="https://710784485.github.io//atom.xml"/>
     <subtitle>相信努力终会有收获</subtitle>
-    <logo>C:/Users/Apple/Documents/Gridea/output/images/avatar.png</logo>
-    <icon>C:/Users/Apple/Documents/Gridea/output/favicon.ico</icon>
+    <logo>https://710784485.github.io//images/avatar.png</logo>
+    <icon>https://710784485.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 机器学习之路</rights>
     <entry>
         <title type="html"><![CDATA[吴恩达coursera作业总结]]></title>
-        <id>C:/Users/Apple/Documents/Gridea/output/post/wu-en-da-coursera-zuo-ye-zong-jie/index.html</id>
-        <link href="C:/Users/Apple/Documents/Gridea/output/post/wu-en-da-coursera-zuo-ye-zong-jie/index.html">
+        <id>https://710784485.github.io//post/wu-en-da-coursera-zuo-ye-zong-jie</id>
+        <link href="https://710784485.github.io//post/wu-en-da-coursera-zuo-ye-zong-jie">
         </link>
         <updated>2019-07-21T13:36:11.000Z</updated>
         <summary type="html"><![CDATA[<h3 id="ex1-linear-regression">EX1 Linear Regression</h3>
@@ -22,24 +22,31 @@
 <!-- more -->
 <h1 id="单变量线性回归">单变量线性回归</h1>
 <p>作业流程图如下<br>
-<img src="C:/Users/Apple/Documents/Gridea/output/post-images/1565014933628.jpg" alt=""><br>
+<img src="https://710784485.github.io//post-images/1565014933628.jpg" alt=""><br>
 其中BGD为批量梯度下降（Batch Gradient Descent），SGD为随机梯度下降（Stochastic Gradient Descent），MBGD为小批量梯度下降（Mini-Batch Gradient Descent）。<br>
 线性回归用最小二乘计算损失，随时函数如下<br>
-<img src="C:/Users/Apple/Documents/Gridea/output/post-images/1565015166503.png" alt=""><br>
+<img src="https://710784485.github.io//post-images/1565015166503.png" alt=""><br>
 由于数据较少，所以使用BGD方法计算梯度为<br>
-<img src="C:/Users/Apple/Documents/Gridea/output/post-images/1565015225915.png" alt=""><br>
+<img src="https://710784485.github.io//post-images/1565015225915.png" alt=""><br>
 最后通过得出的梯度乘以学习率更新θ<br>
-<img src="C:/Users/Apple/Documents/Gridea/output/post-images/1565015286617.png" alt=""></p>
+<img src="https://710784485.github.io//post-images/1565015286617.png" alt=""></p>
 <h1 id="多变量线性回归">多变量线性回归</h1>
-<p>多变量线性回归为使各变量权重程度相当，所以需要首先进行数据预处理，即减去均值除以方差，matlab中代码如下：<br>
-<code>function [X_norm, mu, sigma] = featureNormalize(X) X_norm = X; mu = zeros(1, size(X, 2)); sigma = zeros(1, size(X, 2)); mu = mean(X); sigma = std(X); X_norm = (X_norm-mu)./sigma;</code><br>
-之后步骤与单变量相当，第一章作业比较简单。</p>
+<p>多变量线性回归为使各变量权重程度相当，所以需要首先进行数据预处理，即减去均值除以方差，matlab中代码如下：</p>
+<pre><code>function [X_norm, mu, sigma] = featureNormalize(X)
+X_norm = X;
+mu = zeros(1, size(X, 2));
+sigma = zeros(1, size(X, 2));
+mu = mean(X);
+sigma = std(X);
+X_norm = (X_norm-mu)./sigma;
+</code></pre>
+<p>之后步骤与单变量相当，第一章作业比较简单。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>C:/Users/Apple/Documents/Gridea/output/post/hello-gridea/index.html</id>
-        <link href="C:/Users/Apple/Documents/Gridea/output/post/hello-gridea/index.html">
+        <id>https://710784485.github.io//post/hello-gridea</id>
+        <link href="https://710784485.github.io//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
